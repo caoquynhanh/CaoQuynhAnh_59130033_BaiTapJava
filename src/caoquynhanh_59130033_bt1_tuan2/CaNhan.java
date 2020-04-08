@@ -42,5 +42,5 @@ public abstract class CaNhan {
     public String getSdt() {
         return sdt;
     }
-    
+    update
 }
