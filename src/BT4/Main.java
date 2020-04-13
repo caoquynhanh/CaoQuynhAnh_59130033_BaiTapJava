@@ -17,9 +17,9 @@ public class Main
         QuanLyChuyenXe qlChuyenXe = new QuanLyChuyenXe();
 
         // create chuyen xe noi thanh
-        ChuyenXe xeNoiThanh1 = new ChuyenXeNoiThanh(1, "", "", 20000000, "", 20);
-        ChuyenXe xeNoiThanh2 = new ChuyenXeNoiThanh(2, "", "", 21000000, "", 20);
-        ChuyenXe xeNoiThanh3 = new ChuyenXeNoiThanh(3, "", "", 22000000, "", 20);
+        ChuyenXe xeNoiThanh1 = new ChuyenXeNoiThanh(1, "Vu Duc Thanh", "99-D1388.70", 50000000, "Tu Son - Bac Ninh", 50);
+        ChuyenXe xeNoiThanh2 = new ChuyenXeNoiThanh(2, "Vo Dinh Nam", "74-G1388.70", 65000000, "Trieu Phong - Quang Tri", 51);
+        ChuyenXe xeNoiThanh3 = new ChuyenXeNoiThanh(3, "Luc Quang Huy", "40-H1388.70", 45000000, "Dong Anh - Ha Noi", 52);
 
         // them chuyen xe vao qlChuyenXe
         qlChuyenXe.themChuyenXe(xeNoiThanh1);
@@ -27,9 +27,9 @@ public class Main
         qlChuyenXe.themChuyenXe(xeNoiThanh3);
 
         // create chuyen xe ngoai thanh
-        ChuyenXe xeNgoaiThanh1 = new ChuyenXeNgoaiThanh(4, "", "", 30000000, "", 1);
-        ChuyenXe xeNgoaiThanh2 = new ChuyenXeNgoaiThanh(5, "", "", 31000000, "", 1);
-        ChuyenXe xeNgoaiThanh3 = new ChuyenXeNgoaiThanh(6, "", "", 32000000, "", 1);
+        ChuyenXe xeNgoaiThanh1 = new ChuyenXeNgoaiThanh(4, "Doan The Lan", "77-A1388.70", 50000000, "Quy Nhon - Binh Dinh", 1);
+        ChuyenXe xeNgoaiThanh2 = new ChuyenXeNgoaiThanh(5, "Vo Tran Thai Trung", "38-B1388.70", 41000000, "Huong Son - Ha Tinh", 1);
+        ChuyenXe xeNgoaiThanh3 = new ChuyenXeNgoaiThanh(6, "Nguyen Phong Hao", "37-C1388.70", 30000000, "Vinh - Nghe An", 1);
 
         // them chuyen xe vao qlChuyenXe
         qlChuyenXe.themChuyenXe(xeNgoaiThanh1);
