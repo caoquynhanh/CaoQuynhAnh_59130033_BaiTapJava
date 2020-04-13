@@ -10,5 +10,10 @@ package caoquynhanh_59130033_baitapjava;
  * @author Asus
  */
 public class caoquynhanh_59130033_baitapJava {
-    
+         /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+    }
 }
