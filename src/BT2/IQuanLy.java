@@ -5,6 +5,8 @@
  */
 package BT2;
 
+import BT1.NhanVien;
+
 /**
  *
  * @author Asus
