@@ -5,25 +5,28 @@
  */
 package BT2;
 
-import baitap1.NhanVien;
+import BT1.NhanVien;
 import java.util.ArrayList;
 
 /**
  *
- * @author Hai Tran Do
+ * @author Asus
  */
-public class QuanLyNhanVien implements IQuanLy{
+public class QuanLyNhanVien implements IQuanLy
+{
     // danh sach nhan vien
-  ArrayList<NhanVien> dsNhanVien = new ArrayList<>();
+    ArrayList<NhanVien> dsNhanVien = new ArrayList<>();
 
-  // implement methods
-  @Override
-  public void them(NhanVien nv) {
-    dsNhanVien.add(nv);
-  };
+    // implement methods
+    @Override
+    public void them(NhanVien nv) 
+    {
+      dsNhanVien.add(nv);
+    };
 
-  @Override
-  public void inDS() {
-    dsNhanVien.forEach(nv -> System.out.println(nv.getThongTin()));
-  };
+    @Override
+    public void inDS() 
+    {
+      dsNhanVien.forEach(nv -> System.out.println(nv.getThongTin()));
+    };
 }
