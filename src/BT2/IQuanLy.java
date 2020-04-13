@@ -9,7 +9,8 @@ package BT2;
  *
  * @author Asus
  */
-public interface IQuanLy {
-        public void them(NhanVien nv);
-        public void inDS();
+public interface IQuanLy 
+{
+    public void them(NhanVien nv);
+    public void inDS();
 }
