@@ -14,7 +14,7 @@ public class Main
     public static void main(String[] args) 
     {
         // create sinh vien IT
-        SinhVienIT it = new SinhVienIT("Tran Ba Duy", "CNTT", 6.5, 7, );
+        SinhVienIT it = new SinhVienIT("Tran Ba Duy", "CNTT", 6.5, 7,8 );
         // create sinh vien Biz
         SinhVienBiz biz = new SinhVienBiz("Nguyen Tung Son", "Biz", 7.5, 10);
         // create sinh vien poly tu sinh vien IT
