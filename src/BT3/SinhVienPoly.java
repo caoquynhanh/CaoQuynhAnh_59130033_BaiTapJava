@@ -48,5 +48,9 @@ public abstract class SinhVienPoly
       return "Xuat sac";
     }
 
-
+     // xuat thong tin sinh vien
+     public void xuat() 
+     {
+       System.out.println("Ho ten: " + this.hoTen + ", nganh hoc: " + this.nganhHoc);
+     }
 }
