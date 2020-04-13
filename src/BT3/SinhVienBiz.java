@@ -23,5 +23,10 @@ public class SinhVienBiz extends SinhVienPoly
         this.diemSales = diemSales;
     }
 
-
+    // defined abstract method
+    @Override
+    public double getDiem() 
+    {
+        return (2 * this.diemMarketing + this.diemSales) / 3;
+    };
 }
