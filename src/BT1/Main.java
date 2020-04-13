@@ -19,7 +19,7 @@ public class Main
         nv1.setTuoi(31);
         nv1.setDiaChi("Ha Noi");
         nv1.setTienLuong(6000000);
-        nv1.setTongSoGioLam(150);
+        nv1.settongSoGioLam(150);
         
         // create nhan vien
         NhanVien nv2 = new NhanVien();
@@ -27,7 +27,7 @@ public class Main
         nv2.setTuoi(23);
         nv2.setDiaChi("Quang Ninh");
         nv2.setTienLuong(7000000);
-        nv2.setTongSoGioLam(300);
+        nv2.settongSoGioLam(300);
 
         // in thong tin nhan vien
         System.out.println(nv1.getThongTin());

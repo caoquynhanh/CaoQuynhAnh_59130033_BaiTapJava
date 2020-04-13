@@ -37,8 +37,8 @@ public class NhanVien
     public String getDiaChi() { return this.diaChi; }
     public void setTienLuong(double tienLuong) { this.tienLuong = tienLuong; }
     public double getTienLuong() { return this.tienLuong; }
-    public void setTongGioLam(int tongGioLam) { this.tongSoGioLam = tongGioLam; }
-    public int getTongGioLam() { return this.tongSoGioLam; }
+    public void settongSoGioLam(int tongSoGioLam) { this.tongSoGioLam = tongSoGioLam; }
+    public int gettongSoGioLam() { return this.tongSoGioLam; }
 
     // methods
     // get thong tin nhan vien
@@ -62,8 +62,4 @@ public class NhanVien
     }
     return 0;
   }
-
-    void setTongSoGioLam(int i) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
 }
